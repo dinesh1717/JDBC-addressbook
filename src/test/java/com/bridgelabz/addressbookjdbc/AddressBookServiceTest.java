@@ -23,7 +23,7 @@ public class AddressBookServiceTest {
     @Test
     public void givenContactNumber_WhenUpdated_ShouldSyncWithDb() {
         AddressBookService addressBookService = new AddressBookService();
-        addressBookService.updateContactNumber("archana","11111111");
+        addressBookService.updateContactNumber("dinesh","11111111");
         boolean result = addressBookService.checkAddressBookInSyncWithDB("archana");
         Assert.assertTrue(result);
     }
