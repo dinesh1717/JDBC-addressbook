@@ -7,6 +7,11 @@ public class AddressBookService {
         return null;
     }
 
+    public List<Person> readAddressBookForDateRange(IOService dbIo, LocalDate startDate, LocalDate endDate) {
+        return null;
+    }
+
+
 
     public enum IOService {DB_IO, REST_IO}
     private List<Person> personList;
